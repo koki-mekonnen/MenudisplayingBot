@@ -78,7 +78,7 @@ const drinkMenu = [
 
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
-  bot.sendMessage(chatId, "Hello! What are you looking for today");
+  bot.sendMessage(chatId, "Hello! What are you looking for today")
 });
 
 bot.onText(/\/choose/, (msg) => {
